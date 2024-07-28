@@ -15,7 +15,7 @@ const apiProxy = createProxyMiddleware({
 });
 
 // 使用反向代理中间件
-app.use('/api', apiProxy);  // 将中间件绑定到特定路径
+app.use('/apikw', apiProxy);  // 将中间件绑定到特定路径
 
 // 启动服务器，监听指定的端口
 app.listen(port, () => {
